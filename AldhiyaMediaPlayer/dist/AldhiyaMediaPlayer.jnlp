@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AldhiyaMediaPlayer.jnlp">
+  <information>
+    <title>AldhiyaMediaPlayer</title>
+    <vendor>mrunal</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AldhiyaMediaPlayer.jar" size="134288" download="eager" />
+    <jar href="lib\movieplayer.jar" size="71351" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AldhiyaMediaPlayer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mediaplayer.MediaPlayerApp"  name="AldhiyaMediaPlayer" />
+  <update check="always"/>
+</jnlp>
